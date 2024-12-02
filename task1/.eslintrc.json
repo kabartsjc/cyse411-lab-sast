@@ -1,21 +1,20 @@
 {
-    "env": {
-      "browser": true,
-      "es2021": true,
-      "node": true
-    },
-    "extends": [
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-    },
-    "rules": {
-      "no-eval": "warn",         // Warn about eval usage
-      "no-script-url": "warn",    // Warn about document.write or script URLs
-      "no-new-func": "warn",      // Warn about Function constructor (like eval)
-      "no-unsafe-finally": "warn" // Warn about unsafe code in finally blocks
-    }
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-eval": "warn",         // Warn about eval usage
+    "no-script-url": "warn",    // Warn about document.write or script URLs
+    "no-new-func": "warn",      // Warn about Function constructor (like eval)
+    "no-unsafe-finally": "warn" // Warn about unsafe code in finally blocks
   }
-  
+}
